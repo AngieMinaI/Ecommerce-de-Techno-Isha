@@ -1,0 +1,176 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background: #005555;
+}
+
+#logo {
+  width: 200px;
+  height: 90px;
+}
+
+.cabecera {
+  background: #069A8E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.navegacion a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #1E2BDC;
+}
+
+
+
+
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #A1E3D8;
+  color: black;
+  box-sizing: border-box;
+  padding: 60px 30px;
+  margin: 10px auto  ;
+  text-align: center;
+
+
+}
+
+
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+
+
+
+
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background: #267158;
+  font-family: sans-serif;
+}
+
+.contenedor-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.box-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.box-footer .logo images {
+  width: 180px;
+}
+
+.box-footer .terms {
+
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
+
+.box-footer h2 {
+  margin-bottom: 30px;
+  color: black;
+  font-weight: 700;
+}
+
+.box-footer {
+  color: white;
+}
+
+.box-footer a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+.box-footer a:hover {
+  color: #1E2BDC;
+}
+
+#wps {
+  width: 50px;
+  height: 40px;
+}
+
+.box-copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.box-copyright p {
+
+  color: white;
+}
+
+.box-copyright hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+}

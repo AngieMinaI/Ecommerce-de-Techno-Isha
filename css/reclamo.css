@@ -1,0 +1,236 @@
+body {
+  background: #005555;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+#menor {
+  display: none;
+}
+
+#logo {
+  width: 200px;
+  height: 90px;
+}
+
+.cabecera {
+  background: #069A8E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacion a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #1E2BDC;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 1000;
+  color: white;
+  border: solid 3px #FFFFFF;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 2.0rem;
+  color: black;
+  text-align: center
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+
+}
+
+.general {
+
+  border-radius: 20px;
+  margin: 20px;
+  background: #069A8E
+}
+
+.fila {
+  width: 100%;
+  display: flex;
+  flex: flex-basis 25%;
+  justify-content: sans-serif;
+}
+
+.celda {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  margin: 0.5%;
+}
+
+.celda a:hover {
+  color: #1E2BDC;
+
+}
+
+.celda a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.marco {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+  border-radius: 20px;
+
+}
+
+.contact-form {
+  padding: 20px;
+  background: #A1E3D8;
+  border-radius: 20px;
+
+}
+
+.file {
+  border-bottom: 1px white;
+}
+
+#prioridad {
+  width: 9%;
+  padding: 0;
+  color: black;
+  border-bottom: 0;
+}
+
+#prioridad3 {
+
+  width: 8%;
+  padding: 2px;
+  border: 1px solid black;
+  background: white;
+  color: black;
+
+}
+
+
+form input,
+form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+p {
+  margin: 0;
+  padding: 1em;
+}
+
+select {
+  font-size: 1.1em;
+  width: 100%;
+  width: 50%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.efecto {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+  border-radius: 20px;
+
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background: #267158;
+  font-family: Barlow;
+}
+
+.contenedor-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.box-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.box-footer .logo images {
+  width: 180px;
+}
+
+.box-footer .terms {
+
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  font-family: Barlow;
+}
+
+.box-footer h2 {
+  margin-bottom: 30px;
+  color: black;
+  font-weight: 700;
+}
+
+.box-footer {
+  color: white;
+}
+
+.box-footer a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+.box-footer a:hover {
+  color: #1E2BDC;
+}
+
+#wps {
+  width: 50px;
+  height: 40px;
+}
+
+.box-copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.box-copyright p {
+
+  color: white;
+}
+
+.box-copyright hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+}

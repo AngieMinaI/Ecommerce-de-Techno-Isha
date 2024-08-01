@@ -1,0 +1,133 @@
+body {
+  background: #005555;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+#logo {
+  width: 200px;
+  height: 90px;
+}
+
+.cabecera {
+  background: #069A8E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacion a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #1E2BDC;
+}
+
+.Techno {
+  font-weight: 1000;
+  font-size: 40px;
+  color: white;
+  border: solid 3px #FFFFFF;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  font-size: 40px;
+}
+
+.puntos {
+  text-align: left;
+  font-family: sans-serif;
+  background: #A1E3D8;
+  border-radius: 5px;
+
+}
+
+.atras {
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background: #267158;
+  font-family: sans-serif;
+}
+
+.contenedor-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.box-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.box-footer .logo images {
+  width: 180px;
+}
+
+.box-footer .terms {
+
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.box-footer h2 {
+  margin-bottom: 30px;
+  color: black;
+  font-weight: 700;
+}
+
+.box-footer {
+  color: white;
+}
+
+.box-footer a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+.box-footer a:hover {
+  color: #1E2BDC;
+}
+
+#wps {
+  width: 50px;
+  height: 40px;
+}
+
+.box-copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.box-copyright p {
+
+  color: white;
+}
+
+.box-copyright hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+}

@@ -1,0 +1,18 @@
+.asd{
+  margin: 10px;
+  width: 120px;
+  height: 36px;
+  background: #005555;
+  color: black;
+  border: solid 1px black;
+   border-radius: 0.5em;
+}
+.asd a {
+  color: white;
+  font-size: 18px;
+
+}
+.asd:hover {
+  cursor: pointer;
+  background: #ffc107;
+}

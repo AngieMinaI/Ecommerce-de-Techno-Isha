@@ -1,0 +1,229 @@
+.cuerpo {
+	background: #005555;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#logo {
+	width: 200px;
+	height: 90px;
+}
+
+.cabecera {
+	background: #069A8E;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+.navegacion a {
+	padding-right: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #1E2BDC;
+}
+
+
+
+
+h1 {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 1000;
+	color: white;
+	border: solid 3px #FFFFFF;
+	padding: 0.2em;
+	border-radius: 0.5em;
+	font-size: 60px;
+
+}
+
+h2 {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: white;
+	font-weight: 1000;
+	font-size: 40px;
+	padding-top: 2%;
+}
+
+h3 {
+	text-align: center;
+	font-weight: 1000;
+	font-size: 40px;
+	padding-top: 2%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h4 {
+	text-align: center;
+	font-weight: 1000;
+	font-size: 25px;
+	padding-top: 2%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.p {
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.formato {
+	text-align: center;
+	color: white;
+	border: solid 3px #FFFFFF;
+	padding: 0.2em;
+	border-radius: 0.5em;
+	font-size: 50px;
+}
+
+.tabla {
+	justify-content: center;
+	background: #A1E3D8;
+	border-radius: 10px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tabla_not {
+	background: #069A8E;
+	border-radius: 15px;
+}
+
+.fila {
+	width: 100%;
+	display: flex;
+	flex: flex-basis 25%;
+	justify-content: space-evenly;
+}
+
+.celda {
+	text-align: center;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+	margin: 0.5%;
+}
+
+.item-not {
+	border-radius: 30px
+}
+
+.linkn {
+	text-align: left;
+	color: white;
+	font-size: 20px;
+}
+
+.linka {
+	text-align: right;
+	color: white;
+	font-size: 20px;
+}
+
+.navegation a {
+	text-align: right;
+	padding-right: 30px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+a:hover1 {
+	color: #1E2BDC;
+}
+
+.pagina {
+	text-align: center;
+	color: white;
+}
+
+#entradas {
+	display: flex;
+	align-items: center;
+}
+
+footer {
+	width: 100%;
+	padding: 50px 0px;
+	background: #267158;
+	font-family: sans-serif;
+}
+
+.contenedor-footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: auto;
+
+}
+
+.box-footer {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+}
+
+.box-footer .logo images {
+	width: 180px;
+}
+
+.box-footer .terms {
+
+	max-width: 350px;
+	margin-top: 20px;
+	font-weight: 500;
+	color: white;
+	font-size: 18px;
+}
+
+.box-footer h2 {
+	margin-bottom: 30px;
+	color: black;
+	font-weight: 700;
+}
+
+.box-footer {
+	color: white;
+}
+
+.box-footer a {
+	margin-top: 10px;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+
+}
+
+.box-footer a:hover {
+	color: #1E2BDC;
+}
+
+#wps {
+	width: 50px;
+	height: 40px;
+}
+
+.box-copyright {
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+
+}
+
+.box-copyright p {
+
+	color: white;
+}
+
+.box-copyright hr {
+	border: none;
+	height: 1px;
+	background-color: white;
+}
